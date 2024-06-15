@@ -5,7 +5,7 @@
     <xacro:include filename="$(find ur_description)/urdf/ur10e.xacro" />
 
     <!-- Include Robotiq 2F-85 xacro -->
-    <xacro:include filename="$(find pkg_gripper)/urdf/robotiq_85_gripper.urdf.xacro" />
+    <xacro:include filename="$(find robotiq_gripper)/urdf/robotiq_85_gripper.urdf.xacro" />
 
     <xacro:robotiq_85_gripper prefix="" parent="tool0" >
     <origin xyz="0 0 0.004" rpy="0 ${-pi/2} ${pi}"/>
