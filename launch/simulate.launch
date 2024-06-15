@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <launch>
 
-<arg name="urdf_name" default="gazebo_ur10e_with_robotiq_2f_85_camera.urdf" doc="Name of the URDF file"/>
+<arg name="urdf_name" default="gazebo_ur10e_with_robotiq_2f_85.urdf" doc="Name of the URDF file"/>
 
 <!-- Launch MoveIt and Gazebo nodes -->
 <include file="$(find ur10e_gripper_moveit)/launch/demo_gazebo.launch" pass_all_args="true"></include>
